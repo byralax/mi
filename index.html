@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byron Ijie - Multi-Skilled Tech Professional | Byralax</title>
+    <meta name="description" content="Byron Ijie (Byralax) - Expert in Cybersecurity, Frontend Development, Graphic Design, and Digital Marketing. View my portfolio, projects, and certifications.">
+    <meta name="keywords" content="Byron Ijie, Byralax, Cybersecurity, Frontend Developer, Graphic Designer, Digital Marketing, Portfolio">
+    <meta name="author" content="Byron Ijie">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Byron Ijie - Multi-Skilled Tech Professional">
+    <meta property="og:description" content="Expert in Cybersecurity, Frontend Development, Graphic Design, and Digital Marketing">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://byronijie.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Byralax</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Byron Ijie</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Multi-skilled tech professional specializing in cybersecurity, frontend development, 
+                    and digital innovation. I transform ideas into secure, scalable solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="/resume.pdf" class="btn btn-secondary" download>
+                        <span>Download Resume</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7,10 12,15 17,10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-image">
+                        <img src="https://i.pinimg.com/736x/c0/6d/19/c06d19a97486008ddac43fb986d56037.jpg" alt="Byron Ijie - Profile Picture" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate technologist with expertise spanning cybersecurity, frontend development, 
+                        and digital design. With a keen eye for detail and a drive for innovation, I help 
+                        organizations build secure, user-friendly digital experiences.
+                    </p>
+                    <p>
+                        My journey in tech has led me through various domains, from penetration testing and 
+                        threat hunting to creating intuitive user interfaces and developing comprehensive 
+                        digital marketing strategies.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Cybersecurity</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>Penetration Testing</li>
+                            <li>Threat Hunting</li>
+                            <li>OSINT</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frontend Development</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>HTML/CSS/JavaScript</li>
+                            <li>React</li>
+                            <li>API Integration</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Design & UX</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>UI/UX Design</li>
+                            <li>Adobe Creative Suite</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Digital Marketing</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>SEO Optimization</li>
+                            <li>Social Media Strategy</li>
+                            <li>Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSso-PEmO4if38422mHAVnAPf8gs24Tg_J97Q&s" alt="SecureAuth Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="phis-guard.vercel.app" class="project-link" aria-label="View live demo">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15,3 21,3 21,9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/byralax/PhisGuard" class="project-link" aria-label="View source code">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PhisGuard</h3>
+                        <p class="project-description">
+                            PhishGuard is a Chrome extension that protects against phishing by detecting malicious sites in real-time. It checks URLs, analyzes content, and lets users scan, report, and customize settings. It respects privacy and stores no history. Future plans include machine learning and localization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">html</span>
+                            <span class="tech-tag">Api</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://miro.medium.com/v2/resize:fit:814/1*EBZAn0wF9eRWujpUAYt85Q.png" alt="Sales-Performance-Analytics">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/byralax/Sales-Performance-Analytics" class="project-link" aria-label="View live demo">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15,3 21,3 21,9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/byralax/Sales-Performance-Analytics" class="project-link" aria-label="View source code">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sales-Performance-Analytics</h3>
+                        <p class="project-description">
+                            Python-powered dashboard analyzing 2M+ sales records with predictive insights
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://cdn.dribbble.com/userupload/43481554/file/original-be81066c2b38b1b3c81ea5d0dd100d4b.jpeg" alt="lab brand UI">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://dribbble.com/shots/26077882-lab-brand?utm_source=Clipboard_Shot&utm_campaign=byralax&utm_content=lab%20brand&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=byralax&utm_content=lab%20brand&utm_medium=Social_Share" class="project-link" aria-label="View case study">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15,3 21,3 21,9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lab brand UI</h3>
+                        <p class="project-description">
+                            Complete brand UI/UX mock up
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Adobe Illustrator</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Branding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTnQnPpqpCHYsO27RSwb-nGfzso3c_sNXnHA&s" alt="CompTIA Security+">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">CompTIA Security+</h3>
+                        <p class="cert-issuer">CompTIA</p>
+                        <p class="cert-date">2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKcSfSGOtsbTVf9YO6WCzmOqJ3K-edYXW_A&s" alt="Certified Ethical Hacker">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Certified Ethical Hacker</h3>
+                        <p class="cert-issuer">EC-Council</p>
+                        <p class="cert-date">2023</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYK0E2LU9BluZOHUEOQjmBCG3j9WQ8ZzEwIA&s" alt="Google Analytics">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Google Analytics Certified</h3>
+                        <p class="cert-issuer">Google</p>
+                        <p class="cert-date">2023</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShk0k11efQPgcbTTw69AaGgZgw_F_uAAIEug&s" alt="AWS Cloud Practitioner">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">AWS Cloud Practitioner</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-date">2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230315181624/Zero-Trust-Security-Model.png" alt="The-Evolution-of-Zero-Trust-Security-Architecture
+">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Cybersecurity</span>
+                            <span class="blog-date">Jan 15, 2025</span>
+                        </div>
+                        <h3 class="blog-title">The-Evolution-of-Zero-Trust-Security-Architecture
+</h3>
+                        <p class="blog-excerpt">
+                            The Evolution of Zero-Trust Security Architecture In an age where cyber threats are more sophisticated, persistent, and internal than ever, traditional perimeter-based security is no longer enough.
+
+                        </p>
+                        <a href="https://github.com/byralax/The-Evolution-of-Zero-Trust-Security-Architecture" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1683520341275/a722ac4d-c6e9-4aae-9685-9f1d8b320219.png" alt="-React-Server-Components-A-Performance-Deep-Dive">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Web Development</span>
+                            <span class="blog-date">Dec 10, 2024</span>
+                        </div>
+                        <h3 class="blog-title">-React-Server-Components-A-Performance-Deep-Dive</h3>
+                        <p class="blog-excerpt">
+                            A 12-minute technical read on how React Server Components (RSC) improve web performance — and what that means for developers today.
+
+                        </p>
+                        <a href="https://github.com/byralax/-React-Server-Components-A-Performance-Deep-Dive" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D12AQH9jaMBkmyzSg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1737558523586?e=2147483647&v=beta&t=6MvLvGwi6k0yp0kCu8DPPm3_qDh2gKVV9TRZZpp_aA8" alt="Data-Storytelling-Beyond-Charts-and-Graphs">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Data</span>
+                            <span class="blog-date">Dec 5, 2023</span>
+                        </div>
+                        <h3 class="blog-title">Data-Storytelling-Beyond-Charts-and-Graphs</h3>
+                        <p class="blog-excerpt">
+                            Data storytelling isn't just about beautiful charts — it's about making data *matter*. Here's how to move from static visualizations to impactful narratives.
+
+                        </p>
+                        <a href="https://github.com/byralax/Data-Storytelling-Beyond-Charts-and-Graphs" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>
+                        Ready to secure your digital presence or build something amazing? 
+                        I'm always excited to discuss new opportunities and challenges.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>contact@byralax.8shield.net</span>
+                        </div>
+                        <div class="contact-method">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>+234 (807) 515-1766</span>
+                        </div>
+                        <div class="contact-method">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Remote / Global</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="terminal-button red"></span>
+                            <span class="terminal-button yellow"></span>
+                            <span class="terminal-button green"></span>
+                        </div>
+                        <span class="terminal-title">contact@byralax:~$</span>
+                    </div>
+                    <form class="contact-form" action="https://formspree.io/f/xrbppkwv" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">$ enter_name --required</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">$ enter_email --required</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">$ enter_subject --optional</label>
+                            <input type="text" id="subject" name="_subject" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">$ enter_message --required</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">
+                            <span>$ send_message</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22,2 15,22 11,13 2,9 22,2"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Byralax</h3>
+                    <p class="footer-tagline">Securing the digital future, one project at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Cybersecurity</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/byralax" class="social-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="https://x.com/byralax" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/byralax" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Byron Ijie (Byralax). All rights reserved.</p>
+                <p class="easter-egg-hint">Psst... try pressing Ctrl+Shift+B for a surprise! 🎉</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Easter Egg Modal -->
+    <div class="easter-egg-modal" id="easter-egg-modal">
+        <div class="easter-egg-content">
+            <div class="easter-egg-header">
+                <h3>🎉 You found the Easter Egg! 🎉</h3>
+                <button class="easter-egg-close" id="easter-egg-close">&times;</button>
+            </div>
+            <div class="easter-egg-body">
+                <div class="matrix-rain" id="matrix-rain"></div>
+                <p>Welcome to the Matrix, Neo... I mean, visitor! 😄</p>
+                <p>Thanks for exploring my portfolio with such attention to detail!</p>
+                <div class="easter-egg-stats">
+                    <div class="stat">
+                        <span class="stat-number">42</span>
+                        <span class="stat-label">Answer to Everything</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Lines of Code</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">☕</span>
+                        <span class="stat-label">Coffee Consumed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
